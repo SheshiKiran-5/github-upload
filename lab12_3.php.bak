@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script lang="javascript">
+function loadhobby() {
+const xhttp = new XMLHttpRequest();
+xhttp.onload = function() {
+document.getElementById("20BAI1061-LAB12").innerHTML = this.responseText;
+}
+xhttp.open("GET", "hobby.txt", true);
+xhttp.send();
+}
+</script>
+</head>
+<body>
+<div id="20BAI1061-LAB12">
+<h2>20BAI1061- AJAX File Call</h2>
+<button type="button" onclick="loadhobby()">Visit file content</button>
+</div>

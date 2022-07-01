@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>20BAI1061 - DA2</title>
+<style>
+body {
+background-image: url('wallpaper.jpg');
+}
+</style>
+</head>
+<body>
+<h1>Rank Details</h1>
+<form action="http://localhost/da2_4_1php.php" method="post">
+<h2>Please enter your ID:</h2> <input type="text" name="stu_id">
+<h2>Please enter your Name:</h2> <input type="text" name="name">
+<h2>Please enter your Rank:</h2> <input type="text" name="rank">
+<input type="submit">
+</form>
+</body>
+</html>

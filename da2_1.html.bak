@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>20BAI1061-DA-2</title>
+<style>
+body{
+background-image: url('wallpaper.jpeg');
+}
+</style>
+</head>
+<body>
+<form action="da2_1php.php" method="post">
+<h2>Please enter your Name:</h2> <input type="text" name="name">
+<h2>Please enter your Phone Number:</h2> <input type="text" name="tele">
+<h2>Please enter your Email Address:</h2> <input type="text" name="email">
+<h2>Please enter your Date of Birth:</h2> <input type="date" name="dob">
+<h2>Please enter your Address:</h2> <input type="text" name="add">
+<h2>Please enter your Education:</h2> <input type="text" name="edu">
+<h2>Please enter your Experience:</h2> <input type="text" name="exp">
+<h2>Please enter your Skills:</h2> <input type="text" name="skill">
+<h2>Please enter your Hobbies:</h2> <input type="text" name="hobby">
+<input type="submit">
+</form>
+</body>
+</html>

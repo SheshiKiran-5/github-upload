@@ -1,0 +1,9 @@
+<?php
+setcookie("IWP","96",time()+259200);
+if(isset($_COOKIE["IWP"])){
+echo "cookie detected";
+}
+else{
+echo "Error: cookie not detected".'<br>';
+}
+?>

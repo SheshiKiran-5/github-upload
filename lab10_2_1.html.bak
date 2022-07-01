@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>20BAI1061 - LAB10</title>
+</head>
+<body>
+<H1 style="color:rgb(25, 25, 10)">
+Welcome to Insuarance Policy Bank</H1>
+<form method="post">
+<input type="button" value="Sign Up" onclick="window.location='lab10_2_2.html';">
+<input type="button" value="Sign In" onclick="window.location='lab10_2_3.html'">
+</form>
+</body>
+</html>

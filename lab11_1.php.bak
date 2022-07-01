@@ -1,0 +1,13 @@
+<?php
+$to="mandlasheshi.kiran2020@vitstudent.ac.in";
+$sub="Howdy";
+$message="How do you do? My dear Friend \n With Love, \n 20BAI1061 Mandla Sheshi Kiran Reddy";
+$headers = 'From: <sheshikiranamandla2589@gmail.com>' . "\r\n";
+$res=mail($to,$sub,$message,$headers);
+if($res){
+echo "Email sent Successfully";
+}
+else{
+die('Failure: Email not sent');
+}
+?>
